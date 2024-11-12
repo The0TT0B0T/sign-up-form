@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Sign Up Form</title>
 </head>
 <body>
-    
+    <h1>Sign-Up Form</h1>
+    <form action="/sign-up-form" method="post">
+        <section>
+        <h1>Let's do this!</h1>
+        <p class="name">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="user_first" id="firstName" />
+        </p>
+        <p class="name">
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="user_last" id="lastName" />
+        </p>
+        <p class="contact-info">
+            <label for="email">Email:</label>
+            <input type="email" name="user_mail" id="mail">
+        </p>
+        <p class="contact-info">
+            <label for="phone">Phone #:</label>
+            <input type="number" name="phone_num" id="phone">
+        </p>
+        <p class="passwords">
+            <label for="pswd">Password:</label>
+            <input type="password" name="password" id="pswd">
+        </p>
+        <p class="passwords">
+            <label for="con-pswd">Confirm Password:</label>
+            <input type="password" name="con-password" id="con-pswd">
+        </p>
+    </section>
+    <p>
+        <button type="submit">Create Account</button>
+    </p>
+    </form>
 </body>
 </html>
