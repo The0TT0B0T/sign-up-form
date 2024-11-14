@@ -1,17 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
 * {
+    outline: 2px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #153243;
+    font-family: 'Faculty Glyphic', sans-serif;
+}
+h1 {
+    margin: 5px;
+    padding: 5px;
+    color: #B4B8AB;
+    
 }
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-container {
+    background-color: #284b63;
+    color: #F4F9E9;
     width: 300px;
     height: 500px;
     border: 2px solid black;
-    display: flex;
+    /* display: flex; */
 }
 
 .img-container  img {
@@ -19,3 +33,11 @@
     height: 500px;
 }
 
+.form-container input {
+    background-color:#eef0eb;
+}
+
+.btn {
+    color: #F4F9E9;
+    border-radius: 2px;
+}
