@@ -79,6 +79,7 @@ form input {
     border: none;
     border-radius: 0.5rem;
     font-size: 1rem;
+    background-color:#eef0eb;
 }
 
 form .btn {
